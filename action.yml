@@ -9,7 +9,7 @@ inputs:
     default: 'REL1_35'
   extension:
     description: 'Name of MediaWiki extension to LOAD in LocalSettings. This action does not install the extension.'
-    required: true
+    required: false
 
 runs:
   using: 'composite'
