@@ -6,7 +6,7 @@ inputs:
   version:
     description: 'MediaWiki version. Needs to be available in git. Examples: master, REL1_35, 1.34.2'
     required: false
-    default: 'master'
+    default: 'REL1_35'
   extension:
     description: 'Name of MediaWiki extension to LOAD in LocalSettings. This action does not install the extension.'
     required: true
